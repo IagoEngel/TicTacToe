@@ -156,7 +156,6 @@ class _HomeState extends State<Home> {
             : FlatButton(
                 padding: EdgeInsets.all(0),
                 child: Container(),
-                color: Colors.amber,
                 onPressed: isEnabled
                     ? () {
                         setState(() {
